@@ -23,7 +23,8 @@ const Banner = () => {
   const overlayStyles = {
     position: 'absolute',
     inset: 0,
-    backgroundColor: 'rgba(0, 0, 0, 0.4)',
+    backgroundColor: 'rgba(0, 0, 0, 0.2)',
+    // backgroundColor: 'rgba(255,255,255, 0.1)',
     zIndex: 1,
   };
 
@@ -73,11 +74,13 @@ const Banner = () => {
     <section style={bannerStyles}>
       <div style={overlayStyles}></div>
       <div style={contentStyles}>
-        <h1 style={headingStyles}>Empowering Tomorrow, Today</h1>
+        <h1 style={headingStyles}> Empowering Change, One Innovation at a Time</h1>
         <p style={subheadingStyles}>
-          Explore Nexso’s innovative electronics designed to transform your digital lifestyle.
-        </p>
-        <button
+        Discover Nexso Ecofy’s smart, sustainable essentials—crafted to elevate your everyday life while caring for the planet.
+
+
+</p>
+<button
   style={buyNowButtonStyles}
   onMouseEnter={handleBuyNowHover}
   onMouseLeave={handleBuyNowLeave}
@@ -85,6 +88,7 @@ const Banner = () => {
 >
   Buy Now
 </button>
+
       </div>
     </section>
   );
