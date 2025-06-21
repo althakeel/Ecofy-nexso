@@ -88,18 +88,16 @@ const Grid = () => {
           ...(animate ? gridStyles.leftColumnVisible : {}),
         }}
       >
-        <h2 style={gridStyles.heading}>Smart Tech Starts with Nexso</h2>
+        <h2 style={gridStyles.heading}>Smart Living Starts with Ecofy Nexso</h2>
         <p style={gridStyles.subheading}>
-          Explore cutting-edge electronics designed for your home, work, and lifestyle. From smart gadgets to high-performance gear — Nexso brings innovation to your fingertips.
-        </p>
+        Discover eco-conscious technology designed for a greener home, mindful workspaces, and sustainable lifestyles. From energy-saving gadgets to planet-friendly gear — Ecofy Nexso brings innovation with the Earth in mind.        </p>
         <a
           href="https://nexso.ae"
           target="_blank"
           rel="noopener noreferrer"
           style={gridStyles.button}
         >
-          Shop Nexso Now
-        </a>
+Explore Ecofy Essentials        </a>
       </div>
       <div
         style={{

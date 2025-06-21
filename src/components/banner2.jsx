@@ -6,7 +6,7 @@ const Banner = () => {
     width: '100%',
     maxWidth: '100vw', // Prevent any overflow beyond viewport
     height: '80vh',
-    backgroundImage: 'url("https://res.cloudinary.com/drkfb976p/image/upload/v1750327832/14_ujinpv.webp")',
+    backgroundImage: 'url("https://res.cloudinary.com/drkfb976p/image/upload/v1750509924/18_qtkneb.webp")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',
